@@ -24,28 +24,28 @@ public class Main {
     GregorianCalendar g = new GregorianCalendar();
     DateFormat dateFormat = new SimpleDateFormat("dd-mm-yyyy hh:mm:ss");
 
-    // String nomeUS = JOptionPane.showInputDialog("Insira nome do Usuário");
-    // String dataNascimento = JOptionPane.showInputDialog("Insira data de
-    // Nascimento do Us");
-    // String dataCriacao = dateFormat.format(g.getTime());
-    // String texto = JOptionPane.showInputDialog("Insira o texto da publi");
-    // String dataPubli = dateFormat.format(g.getTime());
-    // String linkMidia = JOptionPane.showInputDialog("Insira link de Midia");
-    System.out.println("Insira nome !");
-    String nomeUS = sc.nextLine();
-    rd.setNomeUsuario(nomeUS);
-    System.out.println("Insira data de Nascimento do US !");
-    String dataNascimento = sc.nextLine();
-    rd.setDataNascimento(dataNascimento);
+    String nomeUS = JOptionPane.showInputDialog("Insira nome do Usuário");
+    String dataNascimento = JOptionPane.showInputDialog("Insira data de Nascimento do Us");
     String dataCriacao = dateFormat.format(g.getTime());
-    rd.setDataCriacao(dataCriacao);
-    System.out.println("Insira texto da publicação !");
-    String texto = sc.nextLine();
-    rd.setTextoPublicacao(texto);
+    String texto = JOptionPane.showInputDialog("Insira o texto da publi");
     String dataPubli = dateFormat.format(g.getTime());
+    String linkMidia = JOptionPane.showInputDialog("Insira link de Midia");
+
+    // System.out.println("Insira nome !");
+    // // String nomeUS = sc.nextLine();
+    rd.setNomeUsuario(nomeUS);
+    // System.out.println("Insira data de Nascimento do US !");
+    // String dataNascimento = sc.nextLine();
+    rd.setDataNascimento(dataNascimento);
+    // String dataCriacao = dateFormat.format(g.getTime());
+    rd.setDataCriacao(dataCriacao);
+    // System.out.println("Insira texto da publicação !");
+    // String texto = sc.nextLine();
+    rd.setTextoPublicacao(texto);
+    // String dataPubli = dateFormat.format(g.getTime());
     rd.setDataPublicacao(dataPubli);
-    System.out.println("Insira link de midia !");
-    String linkMidia = sc.nextLine();
+    // System.out.println("Insira link de midia !");
+    // String linkMidia = sc.nextLine();
     rd.setLinkMidia(linkMidia);
 
     return rd;
@@ -58,11 +58,12 @@ public class Main {
 
     while (swC) {
 
-      // String valor = JOptionPane.showInputDialog("0 - Encerrar programa ! 1 -
-      // Realizar Publicação");
+      String valor = JOptionPane
+          .showInputDialog("0 - Encerrar programa | 1 - Realizar Publicação | 2 - Imprimir Lista");
 
-      System.out.println("0 - Encerrar programa | 1 - Realizar Publicação | 2 - Imprimir Lista");
-      String valor = sc.nextLine();
+      // System.out.println("0 - Encerrar programa | 1 - Realizar Publicação | 2 -
+      // Imprimir Lista");
+      // String valor = sc.nextLine();
 
       int valorNum = ehNumero(valor);
 

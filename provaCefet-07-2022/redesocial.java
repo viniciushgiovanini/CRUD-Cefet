@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 public class redesocial extends publicacao {
 
@@ -86,8 +87,7 @@ public class redesocial extends publicacao {
 
     for (redesocial cont : ARpb) {
 
-      System.out.println(impressaoFormat(cont));
-
+      JOptionPane.showMessageDialog(null, impressaoFormat(cont));
     }
 
   }
