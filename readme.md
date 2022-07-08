@@ -4,7 +4,7 @@
 
 - [Segunda Lista](https://github.com/viniciushgiovanini/Cefet-Trabalhos/blob/master/doc/Trabalho_Final_EMEC_2021_2%20(2).pdf), consiste em CRUD de filmes.  
 
--[Prova 08/07/2022](), encaminha para as imagens JPG, da prova do cefet, aplicada no dia anterior.  
+- [Prova 08/07/2022](https://github.com/viniciushgiovanini/Cefet-Trabalhos/tree/master/doc/questoesProvaCefet-07-2022), encaminha para as imagens JPG, da prova do cefet, aplicada no dia anterior.  
 
 ## Observações 🔭
 
